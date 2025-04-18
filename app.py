@@ -59,6 +59,6 @@ if st.button('Show Recommendation'):
         with cols[i]:
             st.text(recommended_movie_names[i])
             if recommended_movie_posters[i]:
-                st.image(recommended_movie_posters[i], use_column_width=True)
+                st.image(recommended_movie_posters[i], use_container_width=True)
             else:
                 st.text("No Poster Available")
